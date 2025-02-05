@@ -23,26 +23,26 @@ Before setting up the application, ensure you have the following installed:
 
 1. **Clone the Repository**:
 
-   ``bash
+   ```bash
    git clone https://github.com/Aaditatgithub/X-Transact.git
    cd X-Transact
    ```
 2. **Build the Microservices**:
 
    Navigate to each microservice directory (`accounts`, `cards`, `loans`, etc.) and build them using Maven:
-   ``bash
+   ```bash
    mvn clean install
    ```
 3. **Start the Infrastructure Services**:
 
    Use Docker Compose to start the configuration server, Eureka server, and gateway server:
-   ``bash
+   ```bash
    docker-compose up -d
    ```
 4. **Deploy Microservices to Kubernetes**:
 
    Apply the Kubernetes deployment files located in the `k8s` directory:
-   ``bash
+   ```bash
    kubectl apply -f k8s/
    ```
 5. **Set Up Monitoring and Logging**:
