@@ -12,13 +12,13 @@ X-Transact is a comprehensive banking application designed to demonstrate the im
 - **Gateway Server**: PI gateway that routes requests to the appropriate microservices.
 - **Message Broker**: mplements Apache Kafka for asynchronous communication between services.
 - **Monitoring and Logging**: ntegrates Prometheus and Grafana for monitoring, and Loki with Promtail for logging.
-- **Containerization and Orchestration**: tilizes Docker for containerization and Kubernetes for orchestration and management.
+- **Containerization and Orchestration**: utilizes Docker for containerization and Kubernetes for orchestration and management.
   
 ## Prerequisites
 
 Before setting up the application, ensure you have the following installed:
 
-- Java Development Kit (JDK) 11 or higher- ocker- ubernetes- pache Kafka- rometheus- rafana- oki- romtail
+- Java Development Kit (JDK) 11 or higher- docker- kubernetes- apache Kafka- prometheus- grafana- loki- Promtail
 ## Getting Started
 
 1. **Clone the Repository**:
