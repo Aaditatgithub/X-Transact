@@ -1,7 +1,3 @@
-Here’s your corrected and polished version of the **X-Transact** project description:  
-
----
-
 # **X-Transact: Microservices-Based Banking Application**  
 
 X-Transact is a comprehensive banking application designed to demonstrate the implementation of a **microservices architecture** using **Spring Boot**. The project encompasses distinct services for managing **loans, cards, and accounts** while integrating advanced features such as **containerization, message-driven solutions with Kafka, and monitoring tools** including **Prometheus, Grafana, Loki, and Promtail**. Additionally, the application is orchestrated using **Kubernetes** for efficient deployment and scalability.  
